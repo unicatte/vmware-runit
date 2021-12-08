@@ -1,0 +1,3 @@
+#!/bin/sh
+/etc/init.d/vmware start
+exec chpst -b vmware pause
